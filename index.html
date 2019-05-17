@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery.js"></script>
+    <script src="client.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header><img src="mi6.png" alt=""></header>
+        <h1>MI6 Salary Calculator</h1>
+        <h3>Add Employee</h3>
+<input id="firstName" placeholder="First Name"   type="text">
+<input id="lastName" placeholder="Last Name"   type="text">
+<input id="identification" placeholder="ID"   type="text">
+<input id="title" placeholder="Title"   type="text">
+<input id="annualSalary" placeholder="Annual Salary"   type="text">
+<button id="addAgentButton">Add Agent</button>
+
+        <h3>Employees</h3>
+        <table>
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Annual Salary</th>
+                    </tr>
+                </thead>
+                <tbody id="employeeTableBody">
+                    <tr>
+                        <td>James</td>
+                        <td>Bond</td>
+                        <td>007</td>
+                        <td>Commander</td>
+                        <td>$45,000</td>
+                        
+                        <td><button class="deleteAgentButton">Disavow Agent</button></td>
+                    </tr>
+                    <tr>
+                        <td>M</td>
+                        <td>Classified</td>
+                        <td>4267</td>
+                        <td>Superior Officer</td>
+                        <td>$50,000</td>
+                        <td><button class="deleteAgentButton">Disavow Agent</button></td>
+                    </tr>
+                    <tr>
+                            <td>Eve</td>
+                            <td>Moneypenny</td>
+                            <td>6734</td>
+                            <td>Assistant</td>
+                            <td>$34,000</td>
+                            <td><button class="deleteAgentButton">Disavow Agent</button></td>
+                        </tr>
+                </tbody>
+                </table>
+    <p>Total Monthly</p>
+</body>
+</html>
