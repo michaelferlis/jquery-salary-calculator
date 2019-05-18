@@ -27,7 +27,7 @@ function addAgent(){
         <td>${lastName}</td>
         <td>${identification}</td>
         <td>${title}</td>
-        <td>£${salary}</td>
+        <td>£ ${salary}</td>
         <td><button class="disavowAgentButton">Disavow Agent</button></td>
         
         </tr>`
@@ -43,6 +43,7 @@ function addAgent(){
         let formatMonthly = totalMonthly+Number(salary)/12;
         let newFormat = formatMonthly.toFixed(2)
         
+        
 
        $("#monthlySpan").text(newFormat);
        //$("#monthlyDiv").append(monthlyCost)
@@ -53,6 +54,7 @@ if(newFormat > 20000){
 $("#monthlyDiv").css('color', 'red')
 }
 
+
 } // end add agent
 
 
@@ -60,7 +62,10 @@ function disavowAgent(){
 
 $(this).closest('tr').remove();
 
+
+alert("Burn Notice Has Been Issued")
 return console.log('disavow agent working');
+
 } // end disavowAgent
 
 //let formatMonthlyCost = totalMonthly.toFixed(2);

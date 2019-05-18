@@ -12,10 +12,12 @@
 
 <body>
     
-    <header><img src="mi6.png" alt=""></header>
-        <h1>MI6 Salary Calculator</h1>
+    <header id="headerContent"><img src="mi6.png" alt=""></header>
+        <div id="spaceDiv"></div>
+    <div id="mainContent">
+    <h1>MI6 Salary Calculator</h1>
         <h3>Add Employee</h3>
-<div id="mainContent">
+
 <input id="firstName" placeholder="First Name"   type="text">
 <input id="lastName" placeholder="Last Name"   type="text">
 <input id="identification" placeholder="ID"   type="text">
@@ -37,7 +39,7 @@
                 </thead>
                 <tbody id="agentTableBody">
                     <tr>
-                        <td>James</td>
+                        <td id="tableFirstName">James</td>
                         <td>Bond</td>
                         <td>007</td>
                         <td>Commander</td>
@@ -64,10 +66,10 @@
                 </tbody>
                 </table>
             </div>
-    <div id="monthlyDiv">Total Monthly Salary £:  <span id="monthlySpan">10750.00</span></div>
+    <div id="monthlyDiv">Total Monthly Salary: £ <span id="monthlySpan">10750.00</span></div>
     <Footer>
         <img src="" alt="">
     </Footer>
-    
+</div>
 </body>
 </html>
