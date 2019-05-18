@@ -1,3 +1,47 @@
 body{
-    background-color:red
+    /* background-color:rgb(240, 209, 169); */
+    background-color: rgb(133, 86, 43);
+    margin: 50px;
+    
+    background-image: url("folder2.png");
+
+    
+        
+      
+      
+      
+        /* Full height */
+        height: 100%; 
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 90%;
+      
+    
 }
+
+button{
+    color: red;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    background-color: antiquewhite
+    
+    
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    height: 35px;
+  }
+
+  #monthlyDiv{
+      float: right;
+      
+      
+  }
