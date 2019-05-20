@@ -1,13 +1,18 @@
 body{
+    
+        /* font-family: "Times New Roman", Times, serif; */
+      font-family: Courier;
     /* background-color:rgb(240, 209, 169); */
-    background-color: rgb(133, 86, 43);
-    margin: 50px;
+    /* background-color: rgb(133, 86, 43); */
+    margin: 50px; 
+    background-image: url(wood.jpg)
  
 }
 
 button{
     color: red;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: Courier;
     
 }
 
@@ -28,10 +33,12 @@ table {
   #monthlyDiv{
       background-color: antiquewhite;
       border: 1px solid black;
-      width: 22%;
-      text-align: right;
+      width: 36%;
+      text-align: center;
       float: right;
-      margin-right: 130px;
+      margin-right: 131px;
+      height: 30px;
+      
   }
 
   header{
@@ -55,21 +62,44 @@ table {
         margin-top: 45px;
         width: 75vw;
         margin: 0 auto;
+       font: Courier New;
     }
 
     #spaceDiv{
 
-        height: 130px
+        height: 40px
     }
 
     header img{
 
         position: absolute;
         top: 100px;
-        right: 5vw;
+        right: 3vw;
     }
 
     input{
 
         background-color: antiquewhite;
+        font-family: Courier;
+    }
+
+    #mi6 {
+        margin-left: 115px;
+        /* background-color: rgb(243, 234, 234); */
+        /* background-color: antiquewhite; */
+        width: 330px;
+        text-align: center;
+        height: 74px;
+        border-radius: 10px;
+        
+        
+    }
+
+    #classified{
+
+    color: red;
+    margin-left: 135px;
+    font-size: 20px;
+    font-style: oblique
+    
     }
